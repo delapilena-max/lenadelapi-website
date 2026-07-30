@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LenaDelApi — Login</title>
+  <style>
+    body { font-family: system-ui, Segoe UI, Roboto, Arial; margin: 40px; line-height: 1.6; color: #222; }
+    .container { max-width: 600px; margin: 0 auto; text-align: center; }
+    h1 { font-size: 2rem; margin-bottom: 1rem; }
+    a.button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #000;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      margin-top: 20px;
+    }
+    a.button:hover { opacity: 0.85; }
+    footer { margin-top: 3rem; font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Log in to LenaDelApi</h1>
+    <p>Use TikTok Login to authenticate securely and access your content tools.</p>
+    <p class="note">
+      TikTok authorization starts on the LenaDelApi backend so OAuth state,
+      token exchange, and refresh-token storage never happen on GitHub Pages.
+    </p>
+
+    <a class="button"
+       href="https://lenadelapi-tiktok-oauth.delapilena.workers.dev/auth/tiktok/start"
+       rel="noopener">
+      Log in with TikTok
+    </a>
+
+    <footer>
+      © LenaDelApi — All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
